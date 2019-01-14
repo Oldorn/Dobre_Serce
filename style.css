@@ -1,0 +1,242 @@
+*,*:before,*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Geometria-Medium',
+    'Geometria-Bold',
+    'Geometria - Extra Bold',
+    'Gilroy Extra Bold', sans-serif;
+  margin: 0;
+}
+.header {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  min-height: 600px;
+  background-image: linear-gradient(-39deg, #4792e1 0%, #4174b3 35%, #363b5d 100%);
+}
+/* background-gradient */
+/* .main * {
+  border: 1px solid red;
+} */
+.main {
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+.header__text {
+width: 70%;
+    margin-left: 300px;
+}
+.header__text ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.text__menu {
+    text-decoration: none;
+    color: #c5d5e6;
+    font-family: "Geometria - Extra Bold";
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.help-btn {
+  background-image: linear-gradient(270deg, #6082d7 0%, #e73453 100%);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 20px;
+  padding: 7px 23px;
+  margin-right: 300px;
+  margin-top: 25px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.contacts {
+  width: 109px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #000000;
+  opacity: 0.2;
+  position: relative;
+  top: -5px;
+}
+.logo {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.search {
+ position: relative;
+ top: -44px;
+ left: 743px;
+}
+
+.main-text {
+top: 267px;
+position: relative;
+/* z-index: 2; */
+text-align: center;
+right: 1000px;
+}
+.main-text h1 {
+  display: inline-block;
+}
+.main-text h2 {
+  display: inline-block;
+}
+p {
+  font-family: "Gilroy Light";
+  font-size: 18px;
+  position: relative;
+  top: 80px;
+  display: inline-block;
+}
+.link__tel {
+  color: #ffffff;
+  font-family: "Gilroy Extra Bold";
+  font-size: 64px;
+}
+.link__mail {
+  color: #ffffff;
+  font-family: "Geometria - Extra Bold";
+  font-size: 64px;
+  position: relative;
+  top: 30px;
+}
+.main-form {
+  display: flex;
+  position: relative;
+  right: 1580px;
+  top: 525px;
+}
+.input__name {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #c5d5e6;
+  opacity: 0.2;
+  margin-right: 10px;
+}
+.input__tel {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #c5d5e6;
+  opacity: 0.2;
+  margin-right: 10px;
+}
+.input__send {
+  width: 200px;
+  height: 40px;
+border-radius: 5px;
+background-color: #000000;
+opacity: 0.4;
+text-decoration: none;
+color: #fff;
+text-align: center;
+}
+.lang {
+  opacity: 0.5;
+  font-family: "Geometria - Medium";
+  font-size: 14px;
+  display: flex;
+  margin-left: 100px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 22px;
+  margin-right: -95px;
+}
+
+.lang__first {
+  color: #fff;
+  margin-right: 10px;
+}
+.lang__second {
+  margin-right: 10px;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  right: 2060px;
+  top: 670px;
+  height: 25%;
+}
+.twitter {
+  margin-right: 20px;
+}
+.facebook {
+  margin-right: 20px;
+}
+.oval {
+  /* Style for "Oval 4" */
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  justify-items: flex-end;
+  align-self: flex-end;
+  margin-right: 20px;
+  margin-bottom: -590px;
+}
+input {
+  margin: 0;
+  width: 12em;
+}
+.ibl {
+  color: white;
+  position: relative;
+  right: 209px;
+  top: 30px;
+  margin: -1.3em 0 0 0.2em;
+}
+.ikl {
+      position: relative;
+      top: 10px;
+      right: 205px;
+}
+.comment {
+  position: relative;
+     left: 1458px;
+     bottom: 41px;
+  width: 38px;
+  height: 38px;
+}
+input,
+textarea {
+  outline: none;
+}
+
+input:active,
+textarea:active {
+  outline: none;
+}
+
+:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+textarea {
+  resize: horizontal;
+}
